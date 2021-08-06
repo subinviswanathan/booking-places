@@ -1,9 +1,15 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>offer-bookings</ion-title>
+    <ion-buttons>
+      <ion-back-button
+        slot="start"
+        defaultHref="/places/tabs/offers"
+      ></ion-back-button>
+    </ion-buttons>
+    <ion-title>Offer bookings</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-
+  <ion-button color="primary" (click)="onBack()">Back</ion-button>
 </ion-content>
